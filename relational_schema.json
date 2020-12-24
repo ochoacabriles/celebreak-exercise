@@ -1,0 +1,58 @@
+{
+  "reviews_by_user": [
+    {
+      "user_id": "5fe3b5912e71622b178f2cf0",
+      "game_reviews_ids": [
+        "5fe3b8a005f2dae837a1cca0", 
+        "5fe3b8a005f2dae837a1cca3"
+      ]
+    },
+    {
+      "user_id": "5fe3b5912e71622b178f2cf1",
+      "game_reviews_ids": ["5fe3b8a005f2dae837a1cca1"]
+    },
+    {
+      "user_id": "5fe3b5912e71622b178f2cf2",
+      "game_reviews_ids": ["5fe3b8a005f2dae837a1cca2"]
+    }
+  ],
+  "games_by_field": [
+    {
+      "field": "5fe39702c508305f7d96e970",
+      "games_ids": [
+        "5fe3b58589bd45447f9b6aa0", 
+        "5fe3b58589bd45447f9b6aa1"
+      ]
+    }
+  ],
+  "availability_slots_by_field": [
+    {
+      "field_id": "5fe39702c508305f7d96e970",
+      "availability_slots_ids": [
+        "5fe399704ea18b6563a7fc30", 
+        "5fe399704ea18b6563a7fc31", 
+        "5fe399704ea18b6563a7fc32"
+      ]
+    },
+    {
+      "field_id": "5fe39702c508305f7d96e971",
+      "availability_slots_ids": [
+        "5fe399704ea18b6563a7fc33",
+        "5fe399704ea18b6563a7fc34"
+      ]
+    }
+  ],
+  "players_by_game": [
+    {
+      "game_id": "5fe3b58589bd45447f9b6aa0",
+      "players_ids": [
+        "5fe3b5912e71622b178f2cf0",
+        "5fe3b5912e71622b178f2cf1"
+      ]
+    },
+    {
+      "game_id": "5fe3b58589bd45447f9b6aa1",
+      "players_ids": ["5fe3b5912e71622b178f2cf2"]
+    }
+  ]
+}

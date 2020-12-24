@@ -1,0 +1,174 @@
+{
+  "users": [
+    {
+      "_id": "5fe3b5912e71622b178f2cf0",
+      "username": "xavi_6",
+      "firstName": "Xavi",
+      "lastName": "Hernández",
+      "email": "xavi_hernandez@mail.com",
+      "game_signups": [
+        {
+          "_id": "5fe3baf698e85493b0a23c20",
+          "game": "5fe3b58589bd45447f9b6aa0"
+        },
+        {
+          "_id": "5fe3baf698e85493b0a23c21",
+          "game": "5fe3b58589bd45447f9b6aa1"
+        }
+      ]
+    },
+    {
+      "_id": "5fe3b5912e71622b178f2cf1",
+      "username": "andrea_10",
+      "firstName": "Andrea",
+      "lastName": "Pirlo",
+      "email": "andrea_pirlo@mail.com",
+      "game_signups": [
+        {
+          "_id": "5fe3baf698e85493b0a23c22",
+          "game": "5fe3b58589bd45447f9b6aa0"
+        }
+      ]
+    },
+    {
+      "_id": "5fe3b5912e71622b178f2cf2",
+      "username": "arango_18",
+      "firstName": "Juan",
+      "lastName": "Arango",
+      "email": "juan_arango@mail.com",
+      "game_signups": [
+        {
+          "_id": "5fe3baf698e85493b0a23c22",
+          "game": "5fe3b58589bd45447f9b6aa1"
+        }
+      ]
+    },
+    {
+      "_id": "5fe3b5912e71622b178f2cf3",
+      "username": "lehman_1",
+      "firstName": "Jens",
+      "lastName": "Lehman",
+      "email": "jens_lehman@mail.com"
+    }
+  ],
+  "fields": [
+    {
+      "_id": "5fe39702c508305f7d96e970",
+      "name": "Sherman Oaks",
+      "address": "14269 Hartsook St, Sherman Oaks, CA 91423",
+      "description": "Comfortable 7 vs 7 field with artificial grass, it has a parking lot and well equipped dressing rooms",
+      "photos": [
+        "https://images.app.goo.gl/2UYb7EMS9zgxaKqn7",
+        "https://images.app.goo.gl/JwD6nKXxJP5jwLMg6"
+      ],
+      "coordinates": {
+        "lat": "34.1624563",
+        "long": "-118.4453762"
+      }
+    },
+    {
+      "_id": "5fe39702c508305f7d96e971",
+      "name": "North Hollywood",
+      "address": "11501 Strathern St, North Hollywood, CA 91605",
+      "description": "Comfortable 7 vs 7 field with artificial grass, it has a parking lot and well equipped dressing rooms",
+      "photos": [
+        "https://images.app.goo.gl/L9PfAuhktrwzZMKQA",
+        "https://images.app.goo.gl/o4cpd72J1EBh8CcB9"
+      ],
+      "coordinates": {
+        "lat": "33.8453639",
+        "long": "-119.736348"
+      }
+    }
+  ],
+  "availability_slots": [
+    {
+      "_id": "5fe399704ea18b6563a7fc30",
+      "field": "5fe39702c508305f7d96e970",
+      "start_time": 1603490400000,
+      "game": "5fe3b58589bd45447f9b6aa0"
+    },
+    {
+      "_id": "5fe399704ea18b6563a7fc31",
+      "field": "5fe39702c508305f7d96e970",
+      "start_time": 1608750000000,
+      "game": "5fe3b58589bd45447f9b6aa1"
+    },
+    {
+      "_id": "5fe399704ea18b6563a7fc32",
+      "field": "5fe39702c508305f7d96e970",
+      "start_time": 1608753600000
+    },
+    {
+      "_id": "5fe399704ea18b6563a7fc33",
+      "field": "5fe39702c508305f7d96e971",
+      "start_time": 1608757200000
+    },
+    {
+      "_id": "5fe399704ea18b6563a7fc34",
+      "field": "5fe39702c508305f7d96e971",
+      "start_time": 1608760800000
+    }
+  ],
+  "games": [
+    {
+      "_id": "5fe3b58589bd45447f9b6aa0"
+    },
+    {
+      "_id": "5fe3b58589bd45447f9b6aa1"
+    }
+  ],
+  "game_reviews": [
+    {
+      "_id": "5fe3b8a005f2dae837a1cca0",
+      "user": "5fe3b5912e71622b178f2cf0",
+      "game": "5fe3b58589bd45447f9b6aa0",
+      "rate": 5,
+      "comment": "Nice time playing with friends"
+    },
+    {
+      "_id": "5fe3b8a005f2dae837a1cca1",
+      "user": "5fe3b5912e71622b178f2cf1",
+      "game": "5fe3b58589bd45447f9b6aa0",
+      "rate": 2,
+      "comment": "We just lost this game"
+    },
+    {
+      "_id": "5fe3b8a005f2dae837a1cca2",
+      "user": "5fe3b5912e71622b178f2cf2",
+      "game": "5fe3b58589bd45447f9b6aa1",
+      "rate": 4,
+      "comment": "Beautiful field, couldn't find the parking lot"
+    },
+    {
+      "_id": "5fe3b8a005f2dae837a1cca3",
+      "user": "5fe3b5912e71622b178f2cf0",
+      "game": "5fe3b58589bd45447f9b6aa1",
+      "rate": 1,
+      "comment": "Got injured in this game"
+    }
+  ],
+  "chat_messages": [
+    {
+      "_id": "5fe3be3936a7ae066d3e6200",
+      "type": "PUBLIC",
+      "game": "5fe3b58589bd45447f9b6aa0",
+      "author": "5fe3b5912e71622b178f2cf0",
+      "message": "We're planning to share a pizza after the game. Winner team pays!"
+    },
+    {
+      "_id": "5fe3be3936a7ae066d3e6201",
+      "type": "DIRECT",
+      "author": "5fe3b5912e71622b178f2cf1",
+      "receiver": "5fe3b5912e71622b178f2cf3",
+      "message": "Hey 'Mad Jens', are you joining us for tonight's game?"
+    },
+    {
+      "_id": "5fe3be3936a7ae066d3e6202",
+      "type": "DIRECT",
+      "author": "5fe3b5912e71622b178f2cf3",
+      "receiver": "5fe3b5912e71622b178f2cf1",
+      "message": "Ciao 'Maestro', I won't come today, see you next week"
+    }
+  ]
+}
